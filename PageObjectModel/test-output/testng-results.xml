@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-06T08:15:37 CAT" name="Default suite" finished-at="2021-09-06T08:15:58 CAT" duration-ms="21674">
+    <groups>
+    </groups>
+    <test started-at="2021-09-06T08:15:37 CAT" name="Default test" finished-at="2021-09-06T08:15:58 CAT" duration-ms="21674">
+      <class name="tests.MovieTestAPIandUI">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.MovieTestAPIandUI@25bcd0c7]" started-at="2021-09-06T08:15:37 CAT" name="setup" finished-at="2021-09-06T08:15:37 CAT" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GIVEN_NavigationToSignIn_AND_InvalidUserNameEntered_AND_clickSignInButtonClicked_THEN_Error()[pri:0, instance:tests.MovieTestAPIandUI@25bcd0c7]" started-at="2021-09-06T08:15:37 CAT" name="GIVEN_NavigationToSignIn_AND_InvalidUserNameEntered_AND_clickSignInButtonClicked_THEN_Error" finished-at="2021-09-06T08:15:42 CAT" duration-ms="5082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GIVEN_NavigationToSignIn_AND_InvalidUserNameEntered_AND_clickSignInButtonClicked_THEN_Error -->
+        <test-method signature="GIVEN_NavigationToSignIn_AND_OnlypasswordEntered_AND_clickSignInButtonClicked_THEN_Error()[pri:0, instance:tests.MovieTestAPIandUI@25bcd0c7]" started-at="2021-09-06T08:15:42 CAT" name="GIVEN_NavigationToSignIn_AND_OnlypasswordEntered_AND_clickSignInButtonClicked_THEN_Error" finished-at="2021-09-06T08:15:46 CAT" duration-ms="3513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GIVEN_NavigationToSignIn_AND_OnlypasswordEntered_AND_clickSignInButtonClicked_THEN_Error -->
+        <test-method signature="GIVEN_NavigationToSignIn_AND_ValidBUTIcorrectUserNameEntered_AND_clickSignInButtonClicked_THEN_Error()[pri:0, instance:tests.MovieTestAPIandUI@25bcd0c7]" started-at="2021-09-06T08:15:46 CAT" name="GIVEN_NavigationToSignIn_AND_ValidBUTIcorrectUserNameEntered_AND_clickSignInButtonClicked_THEN_Error" finished-at="2021-09-06T08:15:50 CAT" duration-ms="3656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GIVEN_NavigationToSignIn_AND_ValidBUTIcorrectUserNameEntered_AND_clickSignInButtonClicked_THEN_Error -->
+        <test-method signature="TestsUsingDataProvider(java.lang.String,java.lang.String)[pri:0, instance:tests.MovieTestAPIandUI@25bcd0c7]" started-at="2021-09-06T08:15:50 CAT" name="TestsUsingDataProvider" data-provider="getData" finished-at="2021-09-06T08:15:52 CAT" duration-ms="2723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestsUsingDataProvider -->
+        <test-method signature="TestsUsingDataProvider(java.lang.String,java.lang.String)[pri:0, instance:tests.MovieTestAPIandUI@25bcd0c7]" started-at="2021-09-06T08:15:52 CAT" name="TestsUsingDataProvider" data-provider="getData" finished-at="2021-09-06T08:15:55 CAT" duration-ms="2522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestsUsingDataProvider -->
+        <test-method signature="TestsUsingDataProvider(java.lang.String,java.lang.String)[pri:0, instance:tests.MovieTestAPIandUI@25bcd0c7]" started-at="2021-09-06T08:15:55 CAT" name="TestsUsingDataProvider" data-provider="getData" finished-at="2021-09-06T08:15:57 CAT" duration-ms="2289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestsUsingDataProvider -->
+        <test-method signature="getRequestReal()[pri:0, instance:tests.MovieTestAPIandUI@25bcd0c7]" started-at="2021-09-06T08:15:57 CAT" name="getRequestReal" finished-at="2021-09-06T08:15:58 CAT" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestReal -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:tests.MovieTestAPIandUI@25bcd0c7]" started-at="2021-09-06T08:15:58 CAT" name="cleanup" finished-at="2021-09-06T08:16:03 CAT" duration-ms="4271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- tests.MovieTestAPIandUI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
